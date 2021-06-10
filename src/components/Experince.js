@@ -18,7 +18,7 @@ export default function Experince(){
             "Working with the backend developers and integrating the backend API with the UI."]
         },
         {id:2 ,designation: "Sr.software Engineer", 
-        name:"TechChefs", 
+        name:"Intuit India(on Payroll TechChefs)", 
         duration:"Jan 2019 - Jan 2019",
         points:[
             "Worked for intuit's quickbook self employment product.", 
@@ -34,7 +34,7 @@ export default function Experince(){
             "Interfaced with user experience designers and other developers to ensure thoughtful and coherent user experiences."]
         },
         {id:4 ,designation: "M3 Consultant", 
-        name:"Kloud9", 
+        name:"Doppiogroup", 
         duration:"July 2016 - Nov 2017",
         points:[
             "Worked on solving the EDI integration for the Infor M3 Customers.", 

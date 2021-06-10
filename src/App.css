@@ -317,6 +317,7 @@
   justify-content: center;
   width: 100%;
   padding: 10px 0;
+  flex-wrap: wrap;
 }
 .name-logo{
   display: flex;
@@ -421,5 +422,56 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .about-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .projects-description{
+    flex-direction: column;
+  }
+  .project-details{
+    margin: 10px;
+  }
+  .skills-name{
+    flex-wrap: wrap;
+  }
+  .connect-container{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:10px 0;
+  }
+  .connect-media{
+    margin:10px;
+  }
+  .campus-details{
+    flex-direction: column;
+  }
+  .campus{
+    margin: 10px;
+  }
+  .company-experince{
+    flex-direction: column;
+    left: 0%;
+  }
+  .company-list{
+    flex-direction: row;
+  }
+  .company-details{
+    border-bottom: 1px solid #fff;
+    border-left: none;
+  }
+  .active-class{
+    border-bottom: 1px solid #e60707;
+    border-left: none;
+  }
+  .company-name{
+    display: none;
   }
 }
