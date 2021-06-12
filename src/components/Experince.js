@@ -77,7 +77,7 @@ export default function Experince(){
                 {companies.map(value => (
                     <div key={value.id} className={`company-details ${value.id === activeCompany ? `active-class`: ""}`} onClick={() => handleCompanyClick(value.id)}>
                         <span className="company-logo">
-                            <img src={value.logo} alt="logo" />
+                            <img src={`${process.env.PUBLIC_URL}/${value.logo}`} alt="logo" />
                         </span>
                         <span className="company-name"> 
                             {value.name}

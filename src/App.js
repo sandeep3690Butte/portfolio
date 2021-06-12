@@ -34,19 +34,19 @@ React.useEffect(() => {
     <div className="App">
       <Headers />
       <div className="main-content">
-        <div id="about" className="about context-container">
+        <div id="about" className="fadeOpactity context-container">
             <About/>
           </div>
-          <div id="experince" className="context-container">
+          <div id="experince" className="fadeOpactity context-container">
             <Experince/>
           </div>
-          <div id="project" className="texts context-container">
+          <div id="project" className="fadeOpactity texts context-container">
             <Project/>
           </div>
           <div id="skills" className="texts context-container">
             <Skills/>
           </div>
-          <div id="education" className="texts context-container">
+          <div id="education" className="fadeOpactity texts context-container">
             <Education/>
           </div>
           <div id="connectme" className="texts context-container">

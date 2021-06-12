@@ -18,7 +18,7 @@ export class About extends Component {
                </div>
                </div>
                <div className="profile-img">
-                   <img src="profile.jpg" alt="profile-img" />
+                   <img src={process.env.PUBLIC_URL+ '/profile.jpg'} alt="profile-img" />
                </div>
            </div>
         )

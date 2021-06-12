@@ -28,6 +28,10 @@
   color: #61dafb;
 }
 
+.fadeOpactity{
+  opacity: 0;
+}
+
 .animated-scrool{
   margin: 10px 5px;
   padding: 10px 0;
@@ -230,6 +234,7 @@
 .context-container{
   padding: 10px;
   border-top: 1px solid #fff;
+  color: #fff;
 }
 .bullet{
   width: 0px;
@@ -430,7 +435,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
   }
   .projects-description{
     flex-direction: column;
